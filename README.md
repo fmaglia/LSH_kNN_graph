@@ -35,11 +35,12 @@ multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
  
  In every test, the neighborhood is setted to 1.
 
-| Configuration        | 1           | 10  | 100 | avg retrieval time |
-| :------------- |:-------------:| :-----:| :---:| :---------:|
-| δ = 16, L = 25, top500 | 90.50%   | 91.57% | 91.57% | 6 msec |
-| δ = 15, L = 50, top500 | 98.36%   | 99.19% | 99.19% | 18 msec |
-| δ = 15, L = 50, top10k | 99.20%   | 100%   | 100%   | 18 msec |
+| Configuration        | LSH projection           | kNN graph creation | mAP |
+| :------------- |:-------------:| :-----:| :---:|
+| LSH kNN graph (δ = 6, L = 20) | 0.45 s   | 0.52 s | 90.97% |
+| LSH kNN graph (δ = 8, L = 10) | 0.4 s   | 0.94 s | 88.98% | 
+| multi LSH kNN graph (δ = 6, L = 2) | 0.29 s   | 1.54 s   | 91.13%   | 
+| brute-force | -   | 1.33 s   | 90.79%   | 
 
 
 ### Oxford105k
