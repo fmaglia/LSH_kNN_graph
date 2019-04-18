@@ -29,7 +29,7 @@ LSH kNN (δ = 6, L = 20, th = 5000, using global descriptors):
 multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH, using global descriptors):
 `./LSH_sparse 6 20 oxford5k false 5000 80 ResNet50`
 
-For the diffusion application the python script implemented in the @alzaman/paiss[https://github.com/almazan/paiss] github is used.
+For the diffusion application the python script implemented in the [alzaman/paiss[https://github.com/almazan/paiss]] github is used.
 
 ## Results
 
