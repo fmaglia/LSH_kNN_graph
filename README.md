@@ -23,9 +23,9 @@ After downloading the dat files you need to create a folder called `dataset ` an
 ## Test
 
 `LSH kNN (δ = 6, L = 20, th = 5000):
-./LSH_sparse 6 20 oxford5k false 5000 0 ResNet50
+./LSH_sparse 6 20 oxford5k false 5000 0 ResNet50`
 
-multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
+`multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
 ./LSH_sparse 6 20 oxford5k false 5000 80 ResNet50`
 
 
