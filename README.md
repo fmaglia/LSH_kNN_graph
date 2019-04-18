@@ -40,15 +40,19 @@ multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
 | LSH kNN graph (δ = 6, L = 20) | 0.45 s   | 0.52 s | 90.97% |
 | LSH kNN graph (δ = 8, L = 10) | 0.4 s   | 0.94 s | 88.98% | 
 | multi LSH kNN graph (δ = 6, L = 2) | 0.29 s   | 1.54 s   | 91.13%   | 
+| NN-descent (1) | -   | 55 s   | 83.81%   | 
+| RP-div (2) | -   | 1.16 s   | 82.68%   | 
 | brute-force | -   | 1.33 s   | 90.79%   | 
 
 
 ### Oxford105k
 
-| Configuration        | 1           | 10  | 100 | avg retrieval time |
-| :------------- |:-------------:| :-----:| :---:| :---------:|
-| δ = 16, L = 100, top500 | 79.80%   | 80.80% | 80.80% | 60 msec |
-| δ = 16, L = 100, top10k | 97.40%   | 98.50%   | 98.50%   | 100 msec |
+| Configuration        | LSH projection           | kNN graph creation | mAP |
+| :------------- |:-------------:| :-----:| :---:|
+| LSH kNN graph (δ = 6, L = 20) | 23 s   | 77 s | 92.50% |
+| LSH kNN graph (δ = 8, L = 10) | 15 s   | 145 s | 90.79% | 
+| multi LSH kNN graph (δ = 6, L = 4) | 5s   | 420 s   | 92.85%   | 
+| brute-force | -   | 4733 s   | 91.45%   | 
 
 
 
