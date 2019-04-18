@@ -7,8 +7,8 @@ Then the retrieval is tested and the performance are the same or better than the
 
 ## Datasets
 The original dataset files are converted in binary through the application of a simple C++ script:
-- [Oxford5k](https://drive.google.com/)
-- [Oxford105k](https://drive.google.com/) 
+- [Oxford5k](https://drive.google.com/file/d/1AZo4h175YaRT3RlXEC6RUch7X49MZ7pk/view?usp=sharing)
+- [Oxford105k](https://drive.google.com/file/d/1dbWtHkPSxlzPJtSYPnORaIBPKXgoaxFs/view?usp=sharing) 
 
 After downloading the dat files you need to create a folder called `dataset ` and then put in the uncompressed version.
 Remember to modify the path in the C++ files.
