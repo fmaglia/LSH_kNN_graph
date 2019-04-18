@@ -58,11 +58,11 @@ multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
 
 ## Reference
 
-<pre>@article{magliani2018efficient,
-  title={Efficient Nearest Neighbors Search for Large-Scale Landmark Recognition},
-  author={Magliani, Federico and Fontanini, Tomaso and Prati, Andrea},
-  journal={arXiv preprint arXiv:1806.05946},
-  year={2018}
+<pre>@article{magliani2019efficient,
+  title={An Efficient Approximate kNN Graph Method for Diffusion on Image Retrieval},
+  author={Magliani, Federico and McGuiness, Kevin and Mohedano, Eva and Prati, Andrea},
+  journal={arXiv preprint arXiv},
+  year={2019}
 }
 
 @inproceedings{dong2011efficient,
