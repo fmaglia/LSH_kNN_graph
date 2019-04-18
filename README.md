@@ -11,6 +11,7 @@ The original dataset files are converted in binary through the application of a 
 - [Oxford105k](https://drive.google.com/) 
 
 After downloading the dat files you need to create a folder called `dataset ` and then put in the uncompressed version.
+Remember to modify the path in the C++ files.
 
 ## Installation
 * Requirements:
@@ -28,6 +29,7 @@ LSH kNN (δ = 6, L = 20, th = 5000, using global descriptors):
 multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH, using global descriptors):
 `./LSH_sparse 6 20 oxford5k false 5000 80 ResNet50`
 
+For the diffusion application the python script implemented in the @alzaman/paiss-master github is used.
 
 ## Results
 
