@@ -22,10 +22,10 @@ After downloading the dat files you need to create a folder called `dataset ` an
 
 ## Test
 
-LSH kNN (δ = 6, L = 20, th = 5000):
+LSH kNN (δ = 6, L = 20, th = 5000, using global descriptors):
 `./LSH_sparse 6 20 oxford5k false 5000 0 ResNet50`
 
-multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
+multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH, using global descriptors):
 `./LSH_sparse 6 20 oxford5k false 5000 80 ResNet50`
 
 
@@ -33,8 +33,6 @@ multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
 
 ### Oxford5k
  
- In every test, the neighborhood is setted to 1.
-
 | Configuration        | LSH projection           | kNN graph creation | mAP |
 | :------------- |:-------------:| :-----:| :---:|
 | LSH kNN graph (δ = 6, L = 20) | 0.45 s   | 0.52 s | 90.97% |
