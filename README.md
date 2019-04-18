@@ -63,4 +63,24 @@ multi LSH kNN graph (δ = 6, L = 20, th = 5000, 80% of multi-probe LSH):
   author={Magliani, Federico and Fontanini, Tomaso and Prati, Andrea},
   journal={arXiv preprint arXiv:1806.05946},
   year={2018}
-}</pre>
+}
+
+@inproceedings{dong2011efficient,
+  title={Efficient k-nearest neighbor graph construction for generic similarity measures},
+  author={Dong, Wei and Moses, Charikar and Li, Kai},
+  booktitle={Proceedings of the 20th International Conference on World Wide Web},
+  pages={577--586},
+  year={2011},
+  organization={ACM}
+}
+
+@inproceedings{sieranoja2018fast,
+  title={Fast random pair divisive construction of kNN graph using generic distance measures},
+  author={Sieranoja, Sami and Fr{\"a}nti, Pasi},
+  booktitle={Proceedings of the 2018 International Conference on Big Data and Computing},
+  pages={95--98},
+  year={2018},
+  organization={ACM}
+}
+
+</pre>
