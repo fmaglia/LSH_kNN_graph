@@ -1,5 +1,5 @@
 # LSH_kNN_graph
-[[paper](https://arxiv.org/)] [[project](http://implab.ce.unipr.it/?page_id=)] 
+[[paper](https://arxiv.org/pdf/1904.08668.pdf)] [[project](http://implab.ce.unipr.it/?page_id=1006)] 
 
 The proposed method allows to create an approximate kNN graph in C++ for the diffusion application.
 Then the retrieval is tested and the performance are the same or better than the ones obtained on the brute-force graph, but in less time (due to the reduction in the approximate kNN graph creation).
