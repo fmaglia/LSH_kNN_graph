@@ -61,7 +61,7 @@ For the diffusion application the python script implemented in the [alzaman/pais
 <pre>@article{magliani2019efficient,
   title={An Efficient Approximate kNN Graph Method for Diffusion on Image Retrieval},
   author={Magliani, Federico and McGuiness, Kevin and Mohedano, Eva and Prati, Andrea},
-  journal={arXiv preprint arXiv},
+  journal={arXiv preprint arXiv:1904.08668},
   year={2019}
 }
 
